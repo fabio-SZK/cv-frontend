@@ -1,1 +1,42 @@
+body{
+    background-color: #e0d4e6;
+}
 
+.texto{
+    text-indent: 20px;
+    font-size: 120%;
+}
+
+.subtitulo{
+    background-color: #716a97;
+    color: rgb(232, 222, 235);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 20px
+}
+
+#nome{
+    color: #29193b;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a[href="https://github.com/fabio-SZK"]{
+    color: rgb(173, 143, 5);
+}
+
+a:hover{
+    color: rgb(146, 16, 60);
+}
+
+.sour-gummy-ods {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    color: rgb(2, 73, 2);
+    text-decoration: underline;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
