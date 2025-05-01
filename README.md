@@ -1,1 +1,1 @@
-# cv-frontend
+# Cúrriculo criado na aula de front-end

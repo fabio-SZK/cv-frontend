@@ -1,42 +1,78 @@
-body{
-    background-color: #e0d4e6;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Ariel', 'sans-serif';
+    
 }
 
-.texto{
-    text-indent: 20px;
-    font-size: 120%;
+.small-link { 
+    font-size: 12px;
 }
 
-.subtitulo{
-    background-color: #716a97;
-    color: rgb(232, 222, 235);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 20px
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#nome{
-    color: #29193b;
-    font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.curriculo {
+    flex: 0 1 1000px;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    
 }
 
-a[href="https://github.com/fabio-SZK"]{
-    color: rgb(173, 143, 5);
+.informacao {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 16px;
 }
 
-a:hover{
-    color: rgb(146, 16, 60);
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(82, 91, 139);
+    height: 180px;
+    border-bottom: 5px rgb(42, 30, 112) solid;
+    word-wrap: break-word;
 }
 
-.sour-gummy-ods {
-    font-family: "Sour Gummy", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 150%;
-    color: rgb(2, 73, 2);
-    text-decoration: underline;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
+.section-esquerda img {
+    border-radius: 50%;
+    align-self: center;
+    margin-top: -75px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 36px;
+    padding: 16px;
+}
+
+
+ul {
+    padding-left: 16px;
+}
+
+.section-esquerda {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    border-right: 1px black solid;
+    gap: 24px;
+}
+
+.section-direita {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+
